@@ -14,9 +14,10 @@
     "reset-css": "^4.0.1",
     "whatwg-fetch": "^3.0.0"
   },
-  "scripts": {
-    "build": "webpack --config webpack.config.prod.js"
-  },
+"scripts": {
+  "biuld": "webpack --config webpack.config.prod.js",
+  "develop": "webpack-dev-server --config webpack.config.dev.js --color --open"
+},
   "eslintConfig": {
     "extends": "react-app"
   },
